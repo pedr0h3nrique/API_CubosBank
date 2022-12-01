@@ -1,4 +1,4 @@
-let { banco, contas, ultimoID, saques, depositos, transferências } = require('../bancodedados'); 
+let { banco, contas, ultimoID, saques, depositos } = require('../bancodedados'); 
 
 const listarContas = async (req, res) => {
     const { senha_banco } = req.query;
